@@ -1,0 +1,210 @@
+@media only screen and (max-width: 767px) {
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    html, body{
+        background-color: #E5E5E5;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    main{
+        height: 98%;
+    }
+    
+    footer{
+        height: 4%;
+        margin: 0;
+        padding: 0.075em;
+        color: gray;
+        opacity: 0.8;
+    }
+    
+    .wrapper-logo{
+        display: flex;
+        margin-left: 2.5em;
+    }
+    
+    .container-logo{ 
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 2.5em;
+        border-radius: 0em;
+    }
+    
+    .container-inputs{
+        height: 100%;
+        flex-direction: column;
+        padding: 2.5em;
+    }
+    
+    .container-query{
+        padding-top: 10.5em;
+    }
+    
+    .container-frame1{
+        margin-top: auto;
+    }
+    
+    .container-crypt{
+        display: flex;
+    }
+    
+    .container-warning{
+        display: flex;
+        gap: 0.5em;
+    }
+    
+    .button-encriptar{
+        height: 4.188em;
+        width: 18.5em;
+        border-radius: 1.5em;
+        padding: 1.5em;
+        margin-right: 1.2em;
+        background-color: #0A3871;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.188em;
+        letter-spacing: 0em;
+        text-align: center;
+        border: none;
+        color: #FFF;
+    }
+    
+    .button-encriptar:active{
+        background-color: #2373d4;
+        transform: translateY(0.125em); 
+    }
+    
+    .button-desencriptar{
+        height: 4.188em;
+        width: 18.5em;
+        border-radius: 1.5em;
+        padding: 1.5em;
+        background-color: #D8DFE8;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.188em;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #0A3871;
+        border: 0.063em solid #0A3871;
+    }
+    
+    .container-rectangle{
+        display: flex;
+        padding: 2.5em;
+        height: 100%;
+    }
+    
+    .content-rectangle{
+        display: flex;
+        background-color: #FFF;
+        border-radius: 2em;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 416px;
+    }
+    
+    .container-image{
+        display: none;
+    }
+    
+    .container-image-item{
+        max-width: 336px;
+        max-height: 304px;
+        margin-bottom: 2em;
+    }
+    
+    .container-frame2 p:first-of-type {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.813em;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #343A40;
+    }
+    
+    .container-frame2 p:nth-child(2) {
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #495057;
+    }  
+    
+    .content-after{   
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .content-text{
+        width: 100%;
+        word-wrap: break-word;
+        margin-top: 0;
+        padding: 2em;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 1.8em;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #495057;
+    }
+    
+    .button-copy{
+        justify-self: flex-end;
+        margin-top: auto;
+        margin-bottom: 1em;
+        height: 4.188em;
+        width: 20.5em;
+        border-radius: 1.5em;
+        background-color: #D8DFE8;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.188em;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #0A3871;
+        border: 0.063em solid #0A3871;
+    }
+    
+    .button-copy:active, .button-desencriptar:active{
+        background-color: #f3f3f3;
+        transform: translateY(0.125em); 
+    }
+    
+    textarea {
+        width: 96%;
+        resize: none;
+        overflow: auto;
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 1.8em;
+        padding: 0.625em;
+        letter-spacing: 0em;
+        border: none;
+        text-align: left;
+        background: #E5E5E5;
+        color: #0A3871;
+    }
+    
+    textarea::placeholder {
+        color: #0A3871;
+    }
+    
+    textarea:focus{
+        outline: none;
+        color: #0A3871;
+    }
+}
