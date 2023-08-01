@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/wrapper-logo.css">
+    <link rel="stylesheet" href="css/wrapper-inputs.css">
+    <link rel="stylesheet" href="css/wrapper-rectangle.css">
+    <link rel="shortcut icon" href="img/keyboard-solid.svg">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="wrapper-logo">
+            <img src="img/Logo.svg" alt="logo alura" class="logo-img">
+        </div>
+
+
+        <div class="wrapper-inputs">
+            <div class="container-query">
+                <textarea id="inputText" maxlength="280" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+            <div class="container-frame1">
+                <div class="container-warning">
+                    <img src="img/exclamacion.svg" alt="alerta" class="frame1-item-image">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+
+                <div class="container-crypt">
+                    <button id="encriptar" class="button-encriptar"> Encriptar</button>
+                    <button id="desencriptar" class="button-desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-rectangle">
+            <div class="container-rectangle">
+                <div id="before" class="content-before">
+                    <img src="img/muñeco.svg" alt="muñeco" class="before-image">
+
+                    <div class="before-text">
+                        <p>Ningún mensaje fue encontrado</p>
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+
+                <div id="after" class="content-after">
+                    <p id="textResult" class="after-text">
+
+                    </p>
+                    <button id="copy" class="after-button">Copiar</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Develope by Andres Vanegas</p>
+    </footer>
+</body>
+<script src="javascript/index.js"></script>
+
+</html>
